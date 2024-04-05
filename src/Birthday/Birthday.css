@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html , body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+}
+
+#main {
+    height: 650px;
+    width: 450px;
+    box-shadow: 0 0 5px black;
+    background: linear-gradient(120deg,rgba(255, 0, 0, 0.4),rgba(0, 0, 255, 0.4));
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.content {
+    padding: 0.1rem 2rem;
+    color: #000;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-family: poppins;
+    color: gold;
+}
+p{
+    margin: 5px 0;
+    font-size: 1rem;
+}
+h1 {
+    font-family: poppins;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+section {
+    margin: 10px 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+section .sec-img{
+    height: 5.2vmax;
+    width: 5.2vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+section .sec-img img {
+    height: 100%;
+    width: 100%;
+    transition: 1s ease-out;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+button {
+    margin-top: 1rem;
+    padding: 2px 6px;
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;
+    background: linear-gradient(60deg,rgba(0, 0, 255, 0.4),rgba(255, 0, 0, 0.4));
+}
